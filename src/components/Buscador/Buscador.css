@@ -1,0 +1,74 @@
+.cnt {
+    padding-top: 10px;
+}
+.form-container {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.form-container button {
+    margin-left: 20px;
+}
+.label {
+    padding-right: 10px;
+}
+
+.barra {
+  color: rgb(255, 0, 0);
+  background: black;
+}
+
+.lista {
+  display : flex; 
+  flex-flow: row wrap ; 
+  justify-content: flex-start;
+}
+
+.conteiner {
+  /* max-width: 930px; */  
+  /* display:inline; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  padding-left:15px;
+  padding-right:15px;
+  color: rgb(251, 250, 250);
+  background: url("https://i.pinimg.com/originals/4e/b6/e2/4eb6e234492add86b6a0d24b8f2106dd.png");
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 25px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+/* .imagen {
+  width: 300px;
+}
+ */
+.titulo {
+  color: white;   
+  font-size: large;
+  background: rgba( 255, 0, 0, 0.60 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20.0px );
+  -webkit-backdrop-filter: blur( 20.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+
+.fav {
+  align-self: flex-end;
+} 
+
+.buton {
+    background: rgb(253, 231, 29);
+    background-color: #fb0000; color: black;
+}
